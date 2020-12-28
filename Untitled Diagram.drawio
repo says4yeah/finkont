@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T19:12:58.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" version="14.1.3" etag="HSI-LwYoEHAETlqLc0PM" type="github"><diagram id="cYKwxMik3f744v553Uk9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-28T19:19:30.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="p1x7ZEEx1ihWi9XBQN23" version="14.1.3" type="github">
+  <diagram id="cYKwxMik3f744v553Uk9" name="Page-1">
+    <mxGraphModel dx="728" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-2" value="name&#xa;email&#xa;dateRegistered" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H-BvgIhVuRgIIpX4aUdi-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-4" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-5" value="title&#xa;price&#xa;instructor&#xa;tags" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H-BvgIhVuRgIIpX4aUdi-4">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.013;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="H-BvgIhVuRgIIpX4aUdi-2" target="H-BvgIhVuRgIIpX4aUdi-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="410" y="210" as="sourcePoint" />
+            <mxPoint x="510" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-10" value="enrolls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-BvgIhVuRgIIpX4aUdi-9">
+          <mxGeometry x="-0.0561" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
