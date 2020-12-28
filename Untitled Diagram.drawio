@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T19:31:22.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="UHg2_BuoF-ZJaUHqXA_I" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T19:32:18.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="gVnz_deorGNKj96Fh1Ow" version="14.1.3" type="github">
   <diagram id="cYKwxMik3f744v553Uk9" name="Page-1">
     <mxGraphModel dx="728" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="H-BvgIhVuRgIIpX4aUdi-4" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="540" y="90" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="H-BvgIhVuRgIIpX4aUdi-5" value="title&#xa;price&#xa;instructor&#xa;tags" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H-BvgIhVuRgIIpX4aUdi-4">
+        <mxCell id="H-BvgIhVuRgIIpX4aUdi-5" value="title (string)&#xa;price (float)&#xa;instructor (string)&#xa;tags (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H-BvgIhVuRgIIpX4aUdi-4">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="H-BvgIhVuRgIIpX4aUdi-11" value="Enrollment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
